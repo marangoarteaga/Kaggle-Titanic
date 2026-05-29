@@ -1,0 +1,49 @@
+# Python
+**pycache**/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+
+# Models
+models/
+*.pkl
+*.joblib
+
+# Kaggle submissions
+submissions/
+
+# Logs
+logs/
+*.log
+# Environment variables
+
+.env
+# Pytest
+
+.pytest_cache/
+# Coverage
+
+htmlcov/
+.coverage
+
+# Temporary files
+tmp/
+temp/
