@@ -1,52 +1,10 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyc
-*.pyo
-*.so
-
-# Virtual environments
 .venv/
-venv/
-env/
-
-# Jupyter
+__pycache__/
 .ipynb_checkpoints/
-
-# VSCode
-.vscode/
-
-# macOS
 .DS_Store
 
-# Datos (no se suben al repo)
-data/raw/
-data/interim/
-data/processed/
+*.zip
 
-# Modelos entrenados
-models/
-models/*.pkl
-models/*.joblib
-models/*.h5
+data/
 
-# Kaggle submissions
-submissions/
-
-# Logs
-logs/
-*.log
-
-# Environment variables
-.env
-
-# Pytest
-.pytest_cache/
-
-# Coverage
-htmlcov/
-.coverage
-
-# Temporary files
-tmp/
-temp/
+kaggle.json
