@@ -1,6 +1,8 @@
 # Python
-**pycache**/
+__pycache__/
 *.py[cod]
+*.pyc
+*.pyo
 *.so
 
 # Virtual environments
@@ -17,15 +19,16 @@ env/
 # macOS
 .DS_Store
 
-# Data
+# Datos (no se suben al repo)
 data/raw/
 data/interim/
 data/processed/
 
-# Models
+# Modelos entrenados
 models/
-*.pkl
-*.joblib
+models/*.pkl
+models/*.joblib
+models/*.h5
 
 # Kaggle submissions
 submissions/
@@ -33,14 +36,14 @@ submissions/
 # Logs
 logs/
 *.log
+
 # Environment variables
-
 .env
+
 # Pytest
-
 .pytest_cache/
-# Coverage
 
+# Coverage
 htmlcov/
 .coverage
 
