@@ -63,7 +63,7 @@ predictions = model.predict(X_test)
 
 submission = pd.DataFrame({
     'PassengerId':test_data['PassengerId'],
-    'Suvived' : predictions
+    'Survived' : predictions
 })
 
 submission.to_csv(
