@@ -12,7 +12,7 @@ features = [
     'Pclass',
     'Sex',
     'Age',
-    'Sibsp',
+    'SibSp',
     'Parch',
     'Fare'
 ]
@@ -20,7 +20,7 @@ features = [
 X = train_data[features]
 X_test = test_data[features]
 
-y = train_data["Survided"]
+y = train_data["Survived"]
 
 #Convert categorical variables
 
@@ -47,7 +47,7 @@ X = pd.DataFrame(
 
 X_test = pd.DataFrame(
     imputer.transform(X_test),
-    columns=X.test.columns
+    columns=X_test.columns
 )
 
 #Model
